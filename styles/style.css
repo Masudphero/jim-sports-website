@@ -3,7 +3,7 @@
   }
   
   body{
-    background-color: rgb(5, 10, 11);
+    background-color: rgb(109, 146, 153);
   }
   
   .conteiner{
@@ -187,6 +187,58 @@
  }
 
   
+
+/* section 333 */
+
+.runimg{
+  width: 366px;
+  height: 312px;
+  border-radius: 25px;
+ 
+}
+.runimg, .run{
+  color: whitesmoke;
+  font-size: 2.50rem;
+  width: 800;
+  height: 200;
+}
+
+.runimg, .we{
+  font-size: 1rem;
+  font-weight: 200;
+  color: whitesmoke;
+  margin-top: 1rem;
+}
+
+.joinnow{
+    border: none;
+    padding: 1rem;
+    font-size: 17px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 15px;
+    color:whitesmoke;
+    width: 10rem;
+    margin-top: 2rem;
+  
+}
+
+.section3{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15rem;
+  background-color: rgba(72, 69, 66, 0.295);
+  padding: 20px;
+  border-radius: 15px;
+  
+ 
+ 
+}
+
+
+
+
+
+
   
   @media screen  and (max-width: 576px) {
     .nav-bar{
@@ -213,7 +265,18 @@
 
     .habits{
       flex-direction: column;
+      gap: 2rem;
     }
+   /* section33 */
+   .section3{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    
+  
+   }
+    
   }
   
   
