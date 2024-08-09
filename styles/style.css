@@ -70,14 +70,14 @@
   .get h1{
   font-size: 5rem;
   font-weight: 800;
-  color: whitesmoke;
+  color: rgb(240, 140, 0);
   margin-top: 3rem;
   
   }
   .get p{
     font-size: 1rem;
     font-weight: 200;
-    color: whitesmoke;
+    color: rgba(255, 255, 255, 0.5);
     margin-top: 1rem;
     
   }
@@ -161,7 +161,7 @@
 
   }
   .chang{
-    color: whitesmoke;
+    color: rgba(255, 255, 255, 0.5);
   }
 
  .habits{
@@ -174,10 +174,12 @@
 
  .photost, .phto{
   border-radius: 50%;
+  
  }
+
  .weblivs{
   font-size: 1rem;
-  color: whitesmoke;
+  color: rgba(255, 255, 255, 0.5);
  }
 
  .photost, h4{
@@ -206,7 +208,7 @@
 .runimg, .we{
   font-size: 1rem;
   font-weight: 200;
-  color: whitesmoke;
+  color: rgba(255, 255, 255, 0.5);
   margin-top: 1rem;
 }
 
@@ -216,7 +218,7 @@
     font-size: 17px;
     background-color: rgb(230, 83, 60);
     border-radius: 15px;
-    color:whitesmoke;
+    color: whitesmoke;
     width: 10rem;
     margin-top: 2rem;
   
@@ -235,11 +237,130 @@
 }
 
 
+/* section44 */
+
+.photogrid img{
+  width: 100%;
+  height: 300px;
+}
 
 
 
+.row-1{
+ display: grid;
+ grid-template-columns: 0.50fr 1fr 0.50fr;
+}
 
+.row-2{
+ display: grid;
+ grid-template-columns: 1fr 0.50fr 0.60fr;
+}
+
+
+.photogrid{
+  position: relative;
   
+}
+
+
+.shottitle{
+  position: absolute;
+  bottom: 20%;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 50px;
+
+
+}
+#chenging{
+  position: absolute;
+  bottom: 80%;
+}
+#chengingto{
+  position: absolute;
+  top: 30px;
+  left: 60%;
+  
+}
+
+.hedigtitle{
+ margin-bottom: 1.5rem;
+ margin-top: 4rem;
+}
+
+.shado1{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  background-color:rgba(6, 255, 210, 0.5);
+}
+.shado2{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.shado3{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.shado4{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.shado5{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  background-color: rgba(66, 255, 0, 0.3);
+}
+.shado6{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  background-color: rgba(0, 71, 255, 0.3);
+}
+
+
+/* section five 5 */
+
+.bmichart{
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+th,td{
+  border: 1px solid black;
+  padding: 15px 30px;
+  color: white;
+}
+table{
+  border-collapse: collapse;
+
+}
+
+.six-section{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: #6c6b6997;
+  
+}
+
+.bmicalculate{
+  color: whitesmoke;
+}
+
+.bmi .h1{
+  color: whitesmoke;
+}
+
+
+
   @media screen  and (max-width: 576px) {
     .nav-bar{
       flex-direction: column;
@@ -273,10 +394,50 @@
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-    
   
    }
+    /* for section */
     
+    .hid{
+      display: none;
+    }
+
+    
+.row-1{
+  display: grid;
+  grid-template-columns: 0.80fr 1fr;
+ }
+.row-2{
+  display: grid;
+  grid-template-columns: 1fr 0.80fr;
+ }
+ .photogrid img{
+  width: 100%;
+  height: 200px;
+}
+#chenging{
+  position: absolute;
+  bottom: 80%;
+}
+#chengingto{
+  position: absolute;
+  left: 5%;
+  top: 70%;
+ font-size: 15px;
+}
+.shado5{
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  background-color: rgba(66, 255, 0, 0.3);
+}
+.shado4{
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
   }
   
   
