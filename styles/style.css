@@ -3,12 +3,13 @@
   }
   
   body{
-    background-color: rgb(109, 146, 153);
+    background: rgb(209, 162, 162);
   }
   
   .conteiner{
     width: 90%;
     margin: 3rem auto;
+    margin-top: 1rem;
     border-radius: 1rem;
   }
   
@@ -21,6 +22,11 @@
   
   
   /* navber style */
+
+  .bagraundss{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    padding-top: 20px;
+  }
   
   .nav-bar{
     display: flex;
@@ -81,6 +87,7 @@
     margin-top: 1rem;
     
   }
+  
   
   /* btn style */
   .Join{
@@ -239,7 +246,7 @@
 
 /* title hed */
 .hedigtitle{
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
 }
 .trenigs{
   font-size: 40px;
@@ -344,7 +351,7 @@
 .calcuter{
   margin-left: 25%;
   font-size: 36px;
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
 }
 .paragrapbmi{
   font-size: 20px;
@@ -354,7 +361,7 @@
   font-size: 35px;
   font-weight: 800;
   margin-bottom: 40px;
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
 }
 
 .late{
@@ -364,14 +371,14 @@
   margin-top: 10px;
   background-color: rgb(230, 83, 60);
   border: none;
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
 
 }
 
 th,td{
   border: 1px solid rgba(167, 186, 211, 0.932);
   padding: 10px 20px;
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
   font-size: 20px;
 }
 table{
@@ -387,14 +394,15 @@ th{
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  background-color: #f3774d97;
+  background: rgb(34, 34, 34);
   
  
 }
 
 .bmicalculate{
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   margin: 50px;
+  border: none;
 }
 
 .bmi1, .h1{
@@ -410,20 +418,27 @@ th{
 .bmichart{
   font-size: 30px;
 }
+.bmicalculate{
+  margin-bottom: 120px;
+}
 .bmibtn{
   border-radius: 8px;
+  border: none;
   padding: 15px;
   width: 280px;
-  background-color: rgb(241, 241, 251);
+  background: rgba(255, 255, 255, 0.1);
   margin: 2px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .factor{
   border-radius: 8px;
   padding: 10px;
   width: 615px;
-  background-color: rgb(241, 241, 251);
-  margin-top: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
 }
 
 /* Meet Our Team */
@@ -446,12 +461,14 @@ th{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  background-color: rgb(66, 66, 95);
+  background: rgba(255, 255, 255, 0.1);
   padding: 20px;
+  border-radius: 20px;
 }
 
 .freme{
   position: relative;
+  
 }
 .nam{
   position: absolute;
@@ -459,13 +476,8 @@ th{
   color: rgb(255, 255, 255);
   font-weight: 600;
   margin-left: 50px;
+  
 }
-
-
-.fainal-sds{
-
-}
-
 
 .treiner{
   width: 100%;
@@ -475,9 +487,28 @@ th{
 
 
 
-  
+  /* futer-list section */
+  .futer-list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+.listt li{
+  font-size: 25px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
 
 
+
+.ffitnes{
+ font-size: 100px;
+ margin-bottom: 20px;
+ color: rgb(230, 83, 60);
+}
+.peragraplast{
+  color: rgba(255, 255, 255, 0.5);
+}
 
 
 
@@ -584,18 +615,24 @@ table{
 }
 th{
   font-size: 15px;
-  color: rgb(1, 82, 85);
+  color: rgb(81, 0, 255);
+}
+.bmicalculate{
+  margin: 30px;
+  margin-bottom: 60px;
 }
 
 .bmibtn{
   border-radius: 8px;
   padding: 10px;
   width: 120px;
-  background-color: rgb(241, 241, 251);
-  margin: 2px;
+  
 }
 .factor{
-  width: 220px;
+  width: 260px;
+}
+.male{
+  width: 200px;
 }
 .bmi1, .h1{
   font-size: 30px;
@@ -622,6 +659,32 @@ th{
 .descrpt{
   font-size: 10px;
 }
+
+/* our teme section */
+.rowseven{
+  grid-template-columns: 1fr;
+}
+.treiner{
+  width: 100%;
+  height: 300px;
+  
+}
+
+/* fouter secton */
+.futer-list{
+ flex-direction: column;
+}
+.getone{
+  margin-top: 30px;
+  
+}
+.listt li{
+  font-size: 20px;
+}
+.gettow{
+  margin-top: 30px;
+}
+
   }
   
   
