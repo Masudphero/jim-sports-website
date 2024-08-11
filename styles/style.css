@@ -1,12 +1,9 @@
 *{
     margin: 0;
-    border: 2px solid
-    red;
   }
   
   body{
-    background: rgb(20, 220, 197);
-    border: 5px solid green;
+    background: rgb(0, 0, 0);
   }
   
   .conteiner{
