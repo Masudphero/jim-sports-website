@@ -1,16 +1,21 @@
 *{
     margin: 0;
+    border: 2px solid
+    red;
   }
   
   body{
-    background: rgb(0, 0, 0);
+    background: rgb(20, 220, 197);
+    border: 5px solid green;
   }
   
   .conteiner{
-    width: 90%;
+    width: 
+    90%;
     margin: 3rem auto;
     margin-top: 1rem;
     border-radius: 1rem;
+    
   }
   
   h2{
@@ -20,12 +25,17 @@
   }
   
   
-  
+
   /* navber style */
+  .hamburge{
+    display: none;
+  }
+  
 
   .bagraundss{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     padding-top: 20px;
+   
   }
   
   .nav-bar{
@@ -59,7 +69,7 @@
   }
   .fitnes{
     font-weight: 700;
-    font-size: 2.50rem;
+    font-size: 3.50rem;
     color: rgb(230, 83, 60);
   }
   
@@ -173,14 +183,17 @@
 
  .habits{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
-  margin-top: 3rem;
-  gap: 12rem;
+  margin-top: 2rem;
+  p
+  
  }
 
  .photost, .phto{
   border-radius: 50%;
+  width: 100%;
+  
   
  }
 
@@ -234,7 +247,7 @@
 .section3{
   display: flex;
   justify-content: space-between;
-  margin-top: 15rem;
+  margin-top: 2rem;
   background-color: rgba(72, 69, 66, 0.295);
   padding: 20px;
   border-radius: 15px;
@@ -383,8 +396,8 @@ th,td{
 }
 table{
   border-collapse: collapse;
-  margin: 50px;
-
+  height: 300px;
+  margin-top: 30px;
 }
 th{
   font-size: 25px;
@@ -395,6 +408,7 @@ th{
   justify-content: center;
   justify-content: space-around;
   background: rgb(34, 34, 34);
+  gap: 20px;
   
  
 }
@@ -502,7 +516,7 @@ th{
 
 
 .ffitnes{
- font-size: 100px;
+ font-size: 70px;
  margin-bottom: 20px;
  color: rgb(230, 83, 60);
 }
@@ -510,6 +524,8 @@ th{
   color: rgba(255, 255, 255, 0.5);
 }
 
+
+/* new section  */
 
 
 
@@ -520,9 +536,30 @@ th{
   @media screen  and (max-width: 576px) {
     .nav-bar{
       flex-direction: column;
-
+    }
+    .nav-option{
+      display: none;
     }
     
+    .hamburge{
+      display: block;
+      margin-top: 12px;
+      color: whitesmoke;
+      margin-left: 15px;
+    }
+
+    .hamburge i{
+    font-size: 30px;
+    margin-right: 10px;
+    }
+    .media{
+      display: flex;
+      gap: 200px;
+    }
+    .fitnes{
+      font-size: 2.50rem;
+    }
+  
     .photobox .btn2{
       position: absolute;
       top: 30%;
@@ -551,8 +588,12 @@ th{
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-  
    }
+
+    .runimg{
+      width: 320px;
+      height: 300px;
+    }
     /* for section */
     
     .hid{
@@ -629,7 +670,7 @@ th{
   
 }
 .factor{
-  width: 260px;
+  width: 288px;
 }
 .male{
   width: 200px;
@@ -647,6 +688,10 @@ th{
 }
 .latore{
   font-size: 30px;
+ 
+}
+.calcuter{
+  margin-left: 30px;
 }
 .our{
   font-weight: 800;
@@ -687,6 +732,63 @@ th{
 
   }
   
-  
+  /* mediaqury tablet  */
+
+  @media screen and (min-width: 576px) and (max-width: 992px) {
+    .habits{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+      
+
+       .six-section{
+        flex-direction: column;
+        
+       }
+       .bmicalculate{
+        
+       }
+
+       .descripson-br{
+        flex-direction: column;
+       }
+
+       .photobox img{
+        width: 50%;
+        height: 100%;
+        margin-left: 280px;
+      }
+       
+      .photost, .phto{
+        width: 75%;
+        
+       }
+
+       .treiner{
+        width: 100%;
+        height: 200px;
+      }
+
+      .factor{
+        width: 100%;
+      }
+   
+      th,td{
+        padding: 5px 12px;
+        color: white;
+        font-size: 18px;
+      }
+      table{
+        border-collapse: collapse;
+        width: 400px;
+        margin-left: 3rem;
+
+      
+      }
+      th{
+        font-size: 15px;
+        color: rgb(81, 0, 255);
+      }
+  }
   
   
