@@ -53,7 +53,7 @@
   }
   
   .home{
-    background-color: rgb(159, 80, 7);
+    background-color: rgb(179, 93, 12);
     border-radius: 5px;
     padding: 0px 4px;
     
@@ -139,7 +139,7 @@
   
   .photobox .btn2{
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 60%;
   
   }
@@ -147,17 +147,18 @@
   .photobox .btn3{
     position: absolute;
     top: 80%;
-    right: 70%;
+    right: 60%;
    
     
   }
   .btn3, .btn2{
-    width: 130px;
+    width: 140px;
     height: 70px;
     border-radius: 10px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     color: aliceblue;
+    border: none;
   }
 
  
