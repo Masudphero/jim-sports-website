@@ -565,7 +565,7 @@ hr{
       margin-top: 40px;
     }
     .fastph{
-    margin-left: 20px;
+    margin-left: 15px;
     }
   
     .photobox .btn2{
@@ -758,7 +758,10 @@ th{
 
 /* our teme section */
 .rowseven{
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr ;
+}
+.hide{
+  display: none;
 }
 .treiner{
   width: 100%;
