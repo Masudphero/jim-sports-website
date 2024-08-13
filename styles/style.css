@@ -500,7 +500,7 @@ margin-top: 20px
 hr{
   width: 50%;
   border: 0px;
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   margin: 20px auto;
 }
 .futer{
@@ -551,7 +551,7 @@ hr{
     }
     .hamburge i{
     font-size: 30px;
-    margin-right: 8px;
+    margin-right: 16px;
     
     }
     .media{
@@ -561,14 +561,11 @@ hr{
     .fitnes{
       font-size: 2.50rem;
       margin-left: 10px;
-      
     }
     .photobox{
       margin-top: 40px;
     }
-    .fastph{
-    margin-left: 10px;
-    }
+    
   
     .photobox .btn2{
       position: absolute;
