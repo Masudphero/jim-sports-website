@@ -787,6 +787,14 @@ hr{
   margin: 10px auto;
 }
 
+.fil ul{
+  display: flex;
+  gap: 20px;
+  margin-left: 70px;
+  
+
+}
+
   }
   
 
