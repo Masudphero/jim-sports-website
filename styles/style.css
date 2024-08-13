@@ -452,7 +452,7 @@ th{
 
 .treiner{
   width: 100%;
-  height: 400px;
+  height: 450px;
   border-radius: 20px;
 }
 
@@ -512,8 +512,10 @@ hr{
 .copyright{
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
-  
-  
+}
+.fil ul{
+  margin-right: 50px;
+  gap: 20px;
 }
 
 
@@ -578,7 +580,7 @@ hr{
       flex-direction: column;
     }
     .get{
-      margin-left: 10px;
+      margin-left: 13px;
     }
 
     .Join{
@@ -621,7 +623,7 @@ hr{
    }
    .joinnow{
     width: 17rem;
-    margin-left: 35px;
+    margin-left: 16px;
     margin-top: 2rem;
    }
 
@@ -687,7 +689,7 @@ hr{
 
 th,td{
   padding: 5px 12px;
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
   font-size: 18px;
 }
 table{
@@ -697,7 +699,7 @@ table{
 }
 th{
   font-size: 15px;
-  color: rgb(81, 0, 255);
+  color: rgb(255, 255, 255);
 }
 .bmicalculate{
   margin: 30px;
@@ -773,15 +775,23 @@ th{
 .futer-list{
  flex-direction: column;
 }
+
+.ffitnes{
+ font-size: 35px;
+}
 .getone{
   margin-top: 30px;
   
 }
 .listt li{
-  font-size: 20px;
+  font-size: 15px;
 }
 .gettow{
   margin-top: 50px;
+  
+}
+.get{
+font-size: 17px;
 }
 hr{
   width: 90%;
@@ -790,12 +800,21 @@ hr{
   margin: 10px auto;
 }
 
+.futer{
+  background: rgba(255, 255, 255, 0.1);
+  padding: 50px;
+  margin-top: 100px;
+  border-top-left-radius: 125px;
+}
+
 .fil ul{
   display: flex;
   gap: 20px;
-  margin-left: 70px;
+  margin-left: 50px;
   
-
+}
+.copyright{
+  font-size: 10px;
 }
 
   }
