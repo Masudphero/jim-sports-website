@@ -12,7 +12,6 @@
     margin: 3rem auto;
     margin-top: 1rem;
     border-radius: 1rem;
-    
   }
   
   h2{
@@ -20,9 +19,6 @@
       font-weight: 800;
       line-height: normal;
   }
-  
-  
-
   /* navber style */
   .hamburge{
     display: none;
@@ -46,19 +42,16 @@
     justify-content: space-evenly;
     gap: 3rem;
     padding: 0.50rem;
-    border: 3px solid rgb(40, 0, 159);
+    border: 3px solid rgb(163, 73, 17);
     border-radius: 15px;
     color: rgb(198, 184, 190);
-  
   }
   
   .home{
     background-color: rgb(179, 93, 12);
     border-radius: 5px;
     padding: 0px 4px;
-    
   }
-  
   .nav-option{
     font-weight: 500;
     font-size: 1rem;
@@ -66,14 +59,12 @@
   }
   .fitnes{
     font-weight: 700;
-    font-size: 3.50rem;
+    font-size: 4rem;
     color: rgb(230, 83, 60);
     font-style: italic;
+    margin-left: 36px;
   }
-  
-  
   /* descripson bar */
-  
   
   .descripson-br{
    display: flex;
@@ -93,10 +84,7 @@
     font-weight: 200;
     color: rgba(255, 255, 255, 0.5);
     margin-top: 1rem;
-    
   }
-  
-  
   /* btn style */
   .Join{
     border: none;
@@ -105,6 +93,7 @@
     background-color: rgb(230, 83, 60);
     border-radius: 15px;
     color:whitesmoke;
+    
   }
   
   .download{
@@ -114,8 +103,7 @@
     background-color: black;
     color: white;
     border: 1px solid whitesmoke;
-    margin-left: 2rem;
-  
+    margin-left: 1rem;
   }
   
   .btns{
@@ -129,9 +117,6 @@
     width: 100%;
     width: 400px;
   }
-  
- 
- 
   .photobox, .fastph{
     width: 100%;
     height: 100%;
@@ -148,8 +133,6 @@
     position: absolute;
     top: 80%;
     right: 60%;
-   
-    
   }
   .btn3, .btn2{
     width: 140px;
@@ -160,12 +143,6 @@
     color: aliceblue;
     border: none;
   }
-
- 
-
-
-
-
   /* section 222 */
   .hading{
     justify-content: center;
@@ -185,15 +162,11 @@
   justify-content: space-between;
   text-align: center;
   margin-top: 2rem;
-  p
-  
  }
 
  .photost, .phto{
   border-radius: 50%;
   width: 100%;
-  
-  
  }
 
  .weblivs{
@@ -206,9 +179,6 @@
   font-weight: 600;
   color: aqua;
  }
-
-  
-
 /* section 333 */
 
 .runimg{
@@ -240,9 +210,7 @@
     color: whitesmoke;
     width: 10rem;
     margin-top: 2rem;
-  
 }
-
 .section3{
   display: flex;
   justify-content: space-between;
@@ -250,12 +218,7 @@
   background-color: rgba(72, 69, 66, 0.295);
   padding: 20px;
   border-radius: 15px;
-  
- 
- 
 }
-
-
 /* title hed */
 .hedigtitle{
   color: rgb(255, 255, 255);
@@ -267,17 +230,12 @@
   font-size: 18px;
   color: rgba(255, 255, 255, 0.5);
 }
-
-
 /* section44 */
 
 .photogrid img{
   width: 100%;
   height: 300px;
 }
-
-
-
 .row-1{
  display: grid;
  grid-template-columns: 0.50fr 1fr 0.50fr;
@@ -287,14 +245,9 @@
  display: grid;
  grid-template-columns: 1fr 0.50fr 0.60fr;
 }
-
-
 .photogrid{
   position: relative;
-  
 }
-
-
 .shottitle{
   position: absolute;
   bottom: 20%;
@@ -312,7 +265,6 @@
   position: absolute;
   top: 30px;
   left: 60%;
-  
 }
 
 .hedigtitle{
@@ -357,7 +309,6 @@
   background-color: rgba(0, 71, 255, 0.3);
 }
 
-
 /* section five 5 */
 
 .calcuter{
@@ -384,7 +335,6 @@
   background-color: rgb(230, 83, 60);
   border: none;
   color: rgb(255, 255, 255);
-
 }
 
 th,td{
@@ -408,8 +358,6 @@ th{
   justify-content: space-around;
   background: rgb(34, 34, 34);
   gap: 20px;
-  
- 
 }
 
 .bmicalculate{
@@ -444,13 +392,24 @@ th{
   color: rgba(255, 255, 255, 0.6);
 }
 
+.male{
+  border-radius: 8px;
+  border: none;
+  padding: 15px;
+  width: 310px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 2px;
+  color: rgba(200, 185, 185, 0.6);
+  font-size: 12px;
+}
+
 .factor{
   border-radius: 8px;
-  padding: 10px;
-  width: 615px;
+  padding: 15px;
+  width: 630px;
   background: rgba(255, 255, 255, 0.1);
   margin-top: 10px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(187, 169, 169, 0.6);
   border: none;
 }
 
@@ -489,7 +448,6 @@ th{
   color: rgb(255, 255, 255);
   font-weight: 600;
   margin-left: 50px;
-  
 }
 
 .treiner{
@@ -498,8 +456,6 @@ th{
   border-radius: 20px;
 }
 
-
-
   /* futer-list section */
   .futer-list{
     display: flex;
@@ -507,12 +463,11 @@ th{
     justify-content: space-between;
   }
 .listt li{
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.5);
+  list-style: none;
 }
-
-
 
 .ffitnes{
  font-size: 70px;
@@ -523,8 +478,47 @@ th{
   color: rgba(255, 255, 255, 0.5);
 }
 
+.get{
+  margin-left: 35px;
+  color: aqua
+}
+.getone, .gettow{
+margin-top: 20px
+}
 
-/* new section  */
+.fil img{
+  width: 25px;
+  height: 25px;
+  margin-top: 20px;
+  
+}
+.tit{
+  font-size: 20px;
+  color: aqua;
+}
+
+hr{
+  width: 50%;
+  border: 0px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  margin: 20px auto;
+}
+.futer{
+  background: rgba(255, 255, 255, 0.1);
+  padding: 50px;
+  margin-top: 100px;
+  border-top-left-radius: 125px;
+}
+.copyright{
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  
+  
+}
+
+
+
+/* hed  new section  */
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
 
 .shape{
@@ -537,28 +531,26 @@ th{
 
 
 
-
-
-
-
   @media screen  and (max-width: 576px) {
     .nav-bar{
       flex-direction: column;
+      
     }
     .nav-option{
       display: none;
+      
     }
     
     .hamburge{
       display: block;
       margin-top: 12px;
       color: whitesmoke;
-      margin-left: 15px;
-    }
 
+    }
     .hamburge i{
     font-size: 30px;
     margin-right: 10px;
+    
     }
     .media{
       display: flex;
@@ -566,6 +558,14 @@ th{
     }
     .fitnes{
       font-size: 2.50rem;
+      margin-left: 15px;
+      
+    }
+    .photobox{
+      margin-top: 40px;
+    }
+    .fastph{
+    margin-left: 20px;
     }
   
     .photobox .btn2{
@@ -576,8 +576,22 @@ th{
     
     .descripson-br{
       flex-direction: column;
-      
     }
+    .get{
+      margin-left: 10px;
+    }
+
+    .Join{
+      padding: 1rem;
+      font-size: 15px;
+    }
+    
+    .download{
+      padding: 1rem;
+      font-size: 15px;
+      margin-left: 1rem;
+    }
+    
     .get h1{
       font-size: 3rem;
       font-weight: 800;
@@ -585,22 +599,36 @@ th{
       margin-top: 3rem;
       
       }
-
     .habits{
       flex-direction: column;
       gap: 2rem;
     }
+    .hading h1{
+      font-size: 30px;
+    }
+    
+
    /* section33 */
    .section3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
+    
+   }
+   .run{
+    font-size: 30px;
+   }
+   .joinnow{
+    width: 17rem;
+    margin-left: 35px;
+    margin-top: 2rem;
    }
 
     .runimg{
       width: 320px;
       height: 300px;
+      margin-top: 3rem;
     }
     /* for section */
     
@@ -629,7 +657,8 @@ th{
   position: absolute;
   left: 5%;
   top: 70%;
- font-size: 15px;
+ font-size: 11px;
+
 }
 .shado5{
   width: 100%;
@@ -642,6 +671,10 @@ th{
   height: 200px;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
+}
+.shottitle{
+  font-size: 11px;
+  margin-left: 20px;
 }
 .pressr{
   font-size: 10px;
@@ -677,12 +710,18 @@ th{
   width: 120px;
   
 }
-.factor{
-  width: 288px;
-}
 .male{
-  width: 200px;
+  border-radius: 8px;
+  padding: 10px;
+  width: 140px;
+  
 }
+.factor{
+  width: 289px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
 .bmi1, .h1{
   font-size: 30px;
 }
@@ -701,6 +740,10 @@ th{
 .calcuter{
   margin-left: 30px;
 }
+.latore{
+  font-size: 30px;
+}
+
 .our{
   font-weight: 800;
   font-size: 30px;
@@ -735,11 +778,19 @@ th{
   font-size: 20px;
 }
 .gettow{
-  margin-top: 30px;
+  margin-top: 50px;
+}
+hr{
+  width: 90%;
+  border: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 10px auto;
 }
 
   }
   
+
+
   /* mediaqury tablet  */
 
   @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -760,16 +811,28 @@ th{
        .descripson-br{
         flex-direction: column;
        }
+       .Join{
+        width: 200px;
+        
+      }
+      
+      .download{
+       width: 250px;
+      }
 
        .photobox img{
         width: 50%;
         height: 100%;
-        margin-left: 280px;
+        margin-left: 210px;
       }
        
       .photost, .phto{
         width: 75%;
         
+       }
+
+       .photst{
+        margin: 30px;
        }
 
        .treiner{
@@ -790,12 +853,25 @@ th{
         border-collapse: collapse;
         width: 400px;
         margin-left: 3rem;
-
-      
+      }
+      .latore{
+        font-size: 40px;
+      }
+      .calcuter{
+        margin-left: 50px;
       }
       th{
         font-size: 15px;
         color: rgb(81, 0, 255);
+      }
+      hr{
+        width: 80%;
+        border: 0px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin: 20px auto;
+      }
+      .get{
+        font-size: 20px;
       }
   }
   
