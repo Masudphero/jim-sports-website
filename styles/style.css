@@ -7,8 +7,7 @@
   }
   
   .conteiner{
-    width: 
-    90%;
+    width: 90%;
     margin: 3rem auto;
     margin-top: 1rem;
     border-radius: 1rem;
@@ -533,36 +532,32 @@ hr{
  font-style: italic;
 }
 
+.hamburge{
+  display: none;
+   color: whitesmoke;
+ }
 
 
   @media screen  and (max-width: 576px) {
-    .nav-bar{
-      flex-direction: column;
-      
-    }
-    .nav-option{
-      display: none;
-      
-    }
-    
+
+   .nav-option{
+    display: none;
+   }
+   
     .hamburge{
       display: block;
-      margin-top: 12px;
-      color: whitesmoke;
+       margin-top: 10px;
+       color: whitesmoke;
+       margin-right: 10px;
+     }
+     .hamburge i{
+      font-size: 30px;
+      margin-bottom: 4px;
+     }
 
-    }
-    .hamburge i{
-    font-size: 30px;
-    margin-right: 25px;
-    
-    }
-    .media{
-      display: flex;
-      gap: 200px;
-    }
     .fitnes{
-      font-size: 2.50rem;
-      width: 87px;
+      font-size: 2.60rem;
+      margin-left: 3px;
     }
     .photobox{
       margin-top: 40px;
@@ -627,7 +622,7 @@ hr{
    }
 
     .runimg{
-      width: 320px;
+      width: 300px;
       height: 300px;
       margin-top: 3rem;
     }
@@ -803,7 +798,7 @@ hr{
   background: rgba(255, 255, 255, 0.1);
   padding: 50px;
   margin-top: 100px;
-  border-top-left-radius: 125px;
+  border-top-left-radius: 115px;
 }
 
 .fil ul{
@@ -814,6 +809,12 @@ hr{
 }
 .copyright{
   font-size: 10px;
+}
+.fil img{
+  width: 18px;
+  height: 18px;
+  margin-top: 30px;
+  
 }
 
   }
